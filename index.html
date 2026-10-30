@@ -1,0 +1,332 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <title>my_portfolio</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vaibhav Pandey — B.Tech AI and Data Science student and aspiring developer in Noida, Uttar Pradesh.">
+  <meta name="theme-color" content="#0b0b12">
+  <title>Vaibhav Pandey | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="logo">Vaibhav<span>.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Toggle navigation" aria-expanded="false"
+        aria-controls="nav-links">☰</button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+        <h1>Hi, I'm <span>Vaibhav Pandey</span></h1>
+        <h2>Student &amp; Aspiring Developer</h2>
+
+        <p class="hero-description">
+          I'm a B.Tech student specializing in Artificial Intelligence
+          and Data Science, interested in programming, web development,
+          and building useful technology projects.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn">Explore My Work ↗</a>
+          <a href="resume.pdf" class="btn outline-btn" download>
+            Download Resume ↓
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/Vaibhavpandey2367"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/vaibhav-pandey-059ba9389/"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="mailto:pandeyvaibhav2367@gmail.com">Email ↗</a>
+        </div>
+
+        <p class="location-line">
+          <span class="status-dot"></span> Noida, Uttar Pradesh
+        </p>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="profile-card">
+          <div class="photo-frame">
+            <img src="images/profile.jpg"
+              alt="Vaibhav Pandey profile photo"
+              class="profile-photo"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+
+            <div class="photo-fallback" aria-label="Profile initials VP">
+              VP
+            </div>
+          </div>
+
+          <p class="profile-label">AI &amp; DATA SCIENCE STUDENT</p>
+          <h3>Vaibhav Pandey</h3>
+          <p>Code. Learn. Create. Innovate.</p>
+
+          <div class="status">
+            <span class="status-dot"></span>
+            Student &amp; Aspiring Developer
+          </div>
+        </div>
+
+        <div class="floating-badge" aria-hidden="true">&lt;/&gt;</div>
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container" id="about">
+      <div class="reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">About <span>Me</span></h2>
+      </div>
+
+      <div class="about-card reveal">
+        <div class="about-mark">VP</div>
+
+        <div>
+          <h3>Hello, I'm Vaibhav!</h3>
+          <p>
+            I'm a B.Tech student specializing in Artificial Intelligence
+            and Data Science, based in Noida, Uttar Pradesh. I'm interested
+            in programming, web development, Python, and artificial
+            intelligence.
+          </p>
+          <p>
+            I enjoy learning through hands-on projects, strengthening
+            my programming fundamentals, and exploring how technology
+            can solve everyday problems. I'm working toward becoming
+            a skilled developer by continuously learning and building.
+          </p>
+
+          <a href="#contact" class="text-link">Let's connect →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section-dark" id="education">
+      <div class="container">
+        <div class="reveal">
+          <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+          <h2 class="section-title">My <span>Education</span></h2>
+        </div>
+
+        <article class="education-card reveal">
+          <div class="education-icon">🎓</div>
+          <div>
+            <p class="project-type">UNDERGRADUATE EDUCATION</p>
+            <h3>B.Tech — Artificial Intelligence &amp; Data Science</h3>
+            <p>
+              Studying AI and Data Science while developing programming
+              and software development skills.
+            </p>
+            <p class="muted-text">Noida, Uttar Pradesh</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container" id="skills">
+      <div class="reveal">
+        <p class="eyebrow">TECHNOLOGIES I'M LEARNING</p>
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <p class="section-intro">
+          My current programming and web development toolkit.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-icon">💻</span>
+          <h3>C Programming</h3>
+          <p>Programming fundamentals and logical problem-solving.</p>
+          <div class="tags"><span>C</span><span>Logic</span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-icon">🌐</span>
+          <h3>HTML</h3>
+          <p>Structuring web pages and accessible content.</p>
+          <div class="tags"><span>HTML5</span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-icon">🎨</span>
+          <h3>CSS</h3>
+          <p>Styling websites and creating responsive layouts.</p>
+          <div class="tags"><span>CSS3</span><span>Responsive</span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-icon">⚡</span>
+          <h3>JavaScript</h3>
+          <p>Adding interactivity and dynamic web features.</p>
+          <div class="tags"><span>JavaScript</span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-icon">🐍</span>
+          <h3>Python</h3>
+          <p>Programming practice and exploring AI-related development.</p>
+          <div class="tags"><span>Python</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-dark" id="projects">
+      <div class="container">
+        <div class="reveal">
+          <p class="eyebrow">MY PROJECT WORK</p>
+          <h2 class="section-title">Featured <span>Projects</span></h2>
+          <p class="section-intro">
+            Projects exploring programming, problem-solving, and AI.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-visual visual-one">
+              <span>01</span>
+              <div>Guess the Number</div>
+            </div>
+
+            <div class="project-info">
+              <p class="project-type">PROGRAMMING GAME</p>
+              <h3>Guess the Number Game</h3>
+              <p>
+                A number-guessing game concept where a player tries to
+                discover a hidden number using hints and repeated guesses.
+              </p>
+              <div class="tags">
+                <span>Programming</span><span>Logic</span>
+              </div>
+              <a class="text-link"
+                 href="https://github.com/Vaibhavpandey2367"
+                 target="_blank" rel="noopener noreferrer">
+                View GitHub Profile ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual visual-two">
+              <span>02</span>
+              <div>AI Assistant</div>
+            </div>
+
+            <div class="project-info">
+              <p class="project-type">ARTIFICIAL INTELLIGENCE</p>
+              <h3>AI Assistant</h3>
+              <p>
+                An AI assistant project focused on exploring how software
+                can respond to user prompts and help with everyday tasks.
+              </p>
+              <div class="tags">
+                <span>Python</span><span>AI</span>
+              </div>
+              <a class="text-link"
+                 href="https://github.com/Vaibhavpandey2367"
+                 target="_blank" rel="noopener noreferrer">
+                View GitHub Profile ↗
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <p class="projects-note">
+          Replace the project links with direct repository URLs when
+          your project repositories are available.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+      <div class="contact-container reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+
+        <p class="contact-description">
+          I'm interested in programming, technology, and opportunities
+          to learn and grow as a developer. Feel free to reach out.
+        </p>
+
+        <a href="mailto:pandeyvaibhav2367@gmail.com"
+           class="btn primary-btn">
+          Email Me ↗
+        </a>
+
+        <div class="contact-details">
+          <div class="contact-item">
+            <span>✉</span>
+            <div>
+              <p class="muted-text">Email</p>
+              <a href="mailto:pandeyvaibhav2367@gmail.com">
+                pandeyvaibhav2367@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span>⌖</span>
+            <div>
+              <p class="muted-text">Location</p>
+              <p>Noida, Uttar Pradesh</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-socials">
+          <a href="https://github.com/Vaibhavpandey2367"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/vaibhav-pandey-059ba9389/"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo">Vaibhav<span>.</span></a>
+      <p>Designed &amp; built by Vaibhav Pandey</p>
+      <p>© <span id="year"></span> All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top" id="back-to-top"
+     aria-label="Back to top">↑</a>
+
+</body>
+</html>
